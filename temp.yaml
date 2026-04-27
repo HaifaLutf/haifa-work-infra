@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  password: MTIzNDU2Nzg=
+kind: Secret
+metadata:
+  name: mysql-db-pass
+  namespace: flux-system
