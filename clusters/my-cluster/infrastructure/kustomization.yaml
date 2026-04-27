@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
   - mysql-sealed-secret.yaml
   - tunnel-secret.yaml
+  - mysql-deployment.yaml
+  - mysql-service.yaml
