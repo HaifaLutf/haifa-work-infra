@@ -1,0 +1,13 @@
+<html>
+<head><title>Haifa's HomeLab</title></head>
+<body style="font-family: sans-serif; background: #f4f4f4; text-align: center;">
+    <h1 style="color: #2c3e50;">🚀 Haifa's DevOps Portal</h1>
+    <p>Status: <strong>Connected to MySQL</strong></p>
+    <table border="1" style="margin: 0 auto; background: white;">
+        <tr><th>Event</th><th>Time</th></tr>
+        {% for log in logs %}
+        <tr><td>{{ log[1] }}</td><td>{{ log[2] }}</td></tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
