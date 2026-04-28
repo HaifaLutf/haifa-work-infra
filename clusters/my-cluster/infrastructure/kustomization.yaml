@@ -8,3 +8,4 @@ resources:
   - mysql-pvc.yaml
   - flask-deployment.yaml
   - cloudflare-tunnel.yaml
+  - grafana.yaml
