@@ -20,7 +20,7 @@ WORKDIR /app
 COPY --from=builder /root/.local /root/.local
 # Copy your application code
 COPY app.py .
-
+COPY templates/ ./templates/
 # Ensure the scripts in .local/bin are in the PATH
 ENV PATH=/root/.local/bin:$PATH
 
