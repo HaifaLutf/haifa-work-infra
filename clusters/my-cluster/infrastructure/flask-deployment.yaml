@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: haifa-flask-app:v1  # Your new image!
+        image: haifa-flask-app:v2  # Your new image!
         imagePullPolicy: Never    # Tells K8s to look locally first
         ports:
         - containerPort: 5000
