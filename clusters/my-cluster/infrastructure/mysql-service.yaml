@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: mysql
   namespace: flux-system
-  label:
+  labels:
     app: mysql
 spec:
   ports:
