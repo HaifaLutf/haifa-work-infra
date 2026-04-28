@@ -9,6 +9,7 @@ spec:
       app: mysql
   strategy:
     type: Recreate # Important for databases: don't start a new one until the old one stops
+    rollingUpdate: null
   template:
     metadata:
       labels:
