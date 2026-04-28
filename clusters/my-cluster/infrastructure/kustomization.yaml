@@ -5,3 +5,4 @@ resources:
   - tunnel-secret.yaml
   - mysql-deployment.yaml
   - mysql-service.yaml
+  - mysql-pvc.yaml

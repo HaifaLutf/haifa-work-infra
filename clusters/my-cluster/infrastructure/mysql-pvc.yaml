@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mysql-pvc
+  namespace: flux-system
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: local-path # This is the standard for most homelabs
+  resources:
+    requests:
+      storage: 2Gi
