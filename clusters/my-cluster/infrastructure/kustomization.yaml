@@ -9,3 +9,4 @@ resources:
   - flask-deployment.yaml
   - cloudflare-tunnel.yaml
   - grafana.yaml
+  - cloudflared-secret.yaml
