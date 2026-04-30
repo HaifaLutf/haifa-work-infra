@@ -6,6 +6,18 @@ Live Dashboard: https://monitoring.haifa.work
 📋 Project Overview
 This project demonstrates a production-grade monitoring stack deployed on a local Ubuntu Kubernetes cluster. By leveraging GitOps principles, the entire infrastructure is managed as code, ensuring self-healing capabilities and secure remote access without exposing local ports to the internet.
 
+
+<img width="1024" height="471" alt="image" src="https://github.com/user-attachments/assets/a0b540a1-84f7-4ad2-ac79-7e4888f130cc" />
+
+
+
+
+
+
+
+
+
+
 🛠️ The Tech Stack
 Orchestration: Kubernetes (K3s)
 
@@ -32,6 +44,11 @@ Configured MySQL with specific fsGroup security contexts to handle Linux volume 
 
 📊 Dashboard Preview
 My Grafana dashboard visualizes real-time power consumption across my lab devices (Server-01, Switch-01, Access-Point). I utilized SQL aggregations and dynamic thresholds to provide immediate visual status alerts.
+
+
+<img width="1901" height="1025" alt="image" src="https://github.com/user-attachments/assets/5e0028f1-b185-4338-8e99-55d6439a78ea" />
+
+
 
 🚀 How to Run
 Ensure flux is installed on your cluster.
