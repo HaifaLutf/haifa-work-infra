@@ -18,6 +18,9 @@ This project demonstrates a production-grade monitoring stack deployed on a loca
 
 
 
+
+
+
 🛠️ The Tech Stack
 Orchestration: Kubernetes (K3s)
 
@@ -46,7 +49,12 @@ Configured MySQL with specific fsGroup security contexts to handle Linux volume 
 My Grafana dashboard visualizes real-time power consumption across my lab devices (Server-01, Switch-01, Access-Point). I utilized SQL aggregations and dynamic thresholds to provide immediate visual status alerts.
 
 
+
 <img width="1901" height="1025" alt="image" src="https://github.com/user-attachments/assets/5e0028f1-b185-4338-8e99-55d6439a78ea" />
+
+
+
+
 
 
 
